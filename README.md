@@ -46,7 +46,7 @@ Both sensor outputs were simulated with Gaussian noise to mimic real-world uncer
 Simulated a vehicle that slows down, comes to a stop, and resumes motion again.
 
 - **MAE:** `0.0483`
-- ![Stop and Go result](relative/path/to/image.png)
+- ![Stop and Go result](stopngo.png)
 
 ---
 
@@ -55,7 +55,7 @@ Simulated a vehicle that slows down, comes to a stop, and resumes motion again.
 Simulated a pedestrian motion using a gradually emerging and fading sine wave to mimic walking through the sensor field.
 
 - **MAE:** `0.0602`
-- 📸 *Screenshot will be attached here*
+- ![Pedestrian Walking Result](pedestrian_walking.png)
 
 ---
 
@@ -65,7 +65,5 @@ Simulated a pedestrian motion using a gradually emerging and fading sine wave to
 - Replace simulated data with real-time sensor data from ADAS modules
 - Extend to 2D/3D state estimation with multiple object tracking
 
----
 
-## 📁 Project Structure (Suggested)
 
